@@ -1,0 +1,94 @@
+html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+    display: block
+}
+
+*, *::before, *::after {
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: .8rem;
+    color: #222
+}
+
+.principal {
+    padding: 1rem;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center center
+}
+
+.principal > .wrap {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.principal > .wrap > header > h1 {
+    font-weight: 900;
+    font-size: 3.2rem
+}
+
+.principal > .wrap > header > p {
+    margin-top: 2rem;
+    padding: 1.4rem;
+    font-weight: 400;
+    color: #555
+}
+
+.principal > .wrap > header > .social {
+    list-style: none;
+    margin-top: 2rem
+}
+
+.principal > .wrap > header > .social > .social-item {
+    display: inline;
+    margin-right: 1.5rem
+}
+
+.principal > .wrap > header > .social > .social-item > a {
+    color: #222;
+    font-size: 2rem;
+    text-decoration: none
+}
+
+.principal > .wrap > header > .social > .social-item:last-child {
+    margin-right: 0
+}
+
+@media (min-width: 48em) {
+    body {
+        font-size: 1rem
+    }
+
+    .principal > .wrap > header > h1 {
+        font-size: 4rem
+    }
+
+    .principal > .wrap > header > .social > .social-item > a {
+        font-size: 2.5rem
+    }
+}
