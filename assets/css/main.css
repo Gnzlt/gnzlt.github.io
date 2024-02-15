@@ -5,7 +5,7 @@ body {
     margin: 0;
     color: #E0E0E0;
     font-style: normal;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px #00000030;
 }
 
 main {
@@ -40,6 +40,7 @@ main {
     padding: 1rem;
     width: 32px;
     height: 32px;
+    filter: drop-shadow(1px 1px #00000030)
 }
 
 video {
