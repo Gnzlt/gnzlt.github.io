@@ -4,9 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gonzalo Toledano. Remote Software Developer">
-  <meta name="author" content="Gonzalo Toledano">
   <title>Gonzalo Toledano</title>
+  <meta name="description" content="Gonzalo Toledano. Software Engineer">
+  <meta name="author" content="Gonzalo Toledano">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://gnzlt.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gonzalo Toledano">
+  <meta property="og:description" content="Software Engineer">
+  <meta property="og:url" content="https://gnzlt.com/">
+  <meta property="og:image" content="https://gnzlt.com/assets/image/bgposter.webp">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1VT52CJSN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,39 +24,55 @@
     gtag('config', 'G-Q1VT52CJSN');
   </script>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preload" href="assets/fonts/roboto-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <video autoplay loop muted playsinline poster="assets/image/bgposter.webp">
+  <video autoplay loop muted playsinline aria-hidden="true" poster="assets/image/bgposter.webp">
     <source src="assets/video/bgvideo.webm" type="video/webm">
     <source src="assets/video/bgvideo.mp4" type="video/mp4">
-    <img src="assets/image/bgposter.webp" title="Your browser does not support video tag">
   </video>
 
   <main>
-    <div id="content">
-      <h1>Gonzalo Toledano</h1>
-      <h2>Remote Software Developer</h2>
+    <h1>Gonzalo Toledano</h1>
+    <p class="tagline">Software Engineer</p>
 
-      <a href="https://instagram.com/Gnzlt.jpg">
-        <img id="icon" src="assets/image/instagram.svg" alt="Instagram">
-      </a>
-      <a href="https://github.com/Gnzlt">
-        <img id="icon" src="assets/image/github.svg" alt="GitHub">
-      </a>
-      <a href="https://linkedin.com/in/gonzalotoledano">
-        <img id="icon" src="assets/image/linkedin.svg" alt="LinkedIn">
-      </a>
-      <a href="mailto:hi@gnzlt.com">
-        <img id="icon" src="assets/image/email.svg" alt="Email">
-      </a>
-    </div>
+    <nav aria-label="Social links">
+      <ul class="social">
+        <li>
+          <a href="https://instagram.com/Gnzlt.jpg" rel="me">
+            <img class="icon" src="assets/image/instagram.svg" alt="Instagram" width="32" height="32">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Gnzlt" rel="me">
+            <img class="icon" src="assets/image/github.svg" alt="GitHub" width="32" height="32">
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/gonzalotoledano" rel="me">
+            <img class="icon" src="assets/image/linkedin.svg" alt="LinkedIn" width="32" height="32">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hi@gnzlt.com">
+            <img class="icon" src="assets/image/email.svg" alt="Email" width="32" height="32">
+          </a>
+        </li>
+        <li>
+          <a href="https://buymeacoffee.com/gnzlt" rel="me">
+            <img class="icon" src="assets/image/buymeacoffee.svg" alt="Buy Me a Coffee" width="32" height="32">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <p class="location">
+      <img class="pin" src="assets/image/location.svg" alt="" width="14" height="18">
+      Melbourne, Australia
+    </p>
   </main>
-
 </body>
 
 </html>
